@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: azure;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f4c4f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Poppins';
+    
+    /* padding-top: -30; */
+}
+
+.botones{
+    padding: 9px;
+    border-radius: 80px;
+    background-color: transparent;
+    border: none;
+}
+
+.botones a{
+    background-color: #ce16cb;
+    padding: 9px;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+}
+
+.botones a:active{
+    background-color: rgb(221, 83, 255);
+}
+
+.greetings{
+    color: #ce16cb;
+    text-shadow: rgb(255, 0, 242) 1px 0 10px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+    font-weight: 900;
+}
+
+.description{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #111;
+    font-family: 'Poppins';
+}
+
+@media screen and (max-width:574px){
+    .greetings{
+        display: block;
+        font-size: 4rem;
+        font-weight: 800;
+        text-align: center;
+    }
+    .description{
+        font-size: 2rem;
+    }
+    
+    .button a{
+        font-size: 1rem;
+    }
+}
